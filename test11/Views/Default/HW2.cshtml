@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "HW2";
+}
+
+<h2>HW2</h2>
+
+@{<p>姓名: <input type="text" nmae="name" value="" /></p>
+    <p>帳號: <input type="text" nmae="id" value="" /></p>
+    <p>密碼: <input type="password" nmae="pwd" value="" /></p>
+}
+
+    @{
+    <p>
+        性別:
+        <input type="radio" name="gender" value="1" /> 男生
+        <input type="radio" name="gender" value="1" /> 女生
+    </p>
+    }
+    @{ 
+    <p>
+        興趣:
+        <input type="checkbox" name="hobby1" value="swimming" /> 游泳
+        <input type="checkbox" name="hobby2" value="reading" /> 閱讀
+        <input type="checkbox" name="hobby3" value="movie" /> 電影
+    </p>
+        }
+    @{
+        <p>
+        自我介紹:
+        <textarea name="about"></textarea>
+    </p>
+        }
